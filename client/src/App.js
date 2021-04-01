@@ -1,10 +1,11 @@
+import { BrowserRouter } from "react-router-dom";
+import {RouterConfig} from "./navigation/RouterConfig";
+
 
 function App() {
-  return (
-    <div className="App">
-      Hi, app here
-    </div>
-  );
+  return <BrowserRouter>
+  <RouterConfig/>
+</BrowserRouter>
 }
 
 export default App;

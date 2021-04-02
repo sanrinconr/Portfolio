@@ -6,15 +6,26 @@ import sequelizeLogo from "../../assets/images/sequelizeLogo.svg"
 import postgresqlLogo from "../../assets/images/postgresqlLogo.svg"
 import gitLogo from "../../assets/images/gitLogo.svg"
 
-const initialState = [
-    {name:"React",img:reactLogo},
-    {name:"Redux",img:reduxLogo},
-    {name:"Node",img:nodeLogo},
-    {name:"Express",img:expressLogo},
-    {name:"Sequelize",img:sequelizeLogo},
-    {name:"PostgreSQL",img:postgresqlLogo},
-    {name:"Git",img:gitLogo}
-    ]
+const initialState = {
+    tools:[
+        {name:"React",img:reactLogo},
+        {name:"Redux",img:reduxLogo},
+        {name:"Node",img:nodeLogo},
+        {name:"Express",img:expressLogo},
+        {name:"Sequelize",img:sequelizeLogo},
+        {name:"PostgreSQL",img:postgresqlLogo},
+        {name:"Git",img:gitLogo}
+        ],
+    theoretical:[
+        {name:"A",img:reactLogo},
+        {name:"A",img:reduxLogo},
+        {name:"Node",img:nodeLogo},
+        {name:"Express",img:expressLogo},
+        {name:"Sequelize",img:sequelizeLogo},
+        {name:"PostgreSQL",img:postgresqlLogo},
+        {name:"Git",img:gitLogo}
+        ]
+}
 
 export const skillReducer = (state = initialState, action) => {
 	switch (action.type) {

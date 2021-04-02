@@ -3,6 +3,6 @@ import { skillReducer } from "./skillReducer";
 // import { userReducer } from "./userReducer";
 
 export const rootReducer = combineReducers({
-    skill: skillReducer,
+    skills: skillReducer,
     // user: userReducer
 })

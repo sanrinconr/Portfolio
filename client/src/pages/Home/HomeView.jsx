@@ -6,10 +6,10 @@ export function HomeView(){
     return <div className={style.container}>
         <PresentationPerson/>
         <Section id="sectionTools" title="What's my skills?">
-            <SkillsContainer/>
+            <SkillsContainer type="tools"/>
         </Section>
         <Section id="sectionTheoretical" title="Theoretical knowledge">
-            <SkillsContainer/>
+            <SkillsContainer type="theoretical"/>
         </Section>
     </div>
 }

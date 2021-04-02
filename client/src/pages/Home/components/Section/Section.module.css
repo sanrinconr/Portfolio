@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #757575;
+    padding: 3% 15%;
+}
+
+.container h1{
+    font-size: 230%;
+}

@@ -19,11 +19,17 @@
     width: 12em;
     height: auto;
     border-radius: 200px;
-    margin: 3em 2em 0em 2em;
+    margin: 3em 2em 3em 2em;
 }
 @media (max-width: 500px) {
     .container img{
         width: 14em;
+        margin: 3em 2em 0em 2em;
+    }
+}
+@media (max-width: 350px) {
+    .container img{
+        width: 10em;
     }
 }
 
@@ -55,6 +61,17 @@ from, to { border-color: transparent }
 @media (max-width: 500px) {
     .typewriter h2 {
         font-size: 1.8em;
+    }
+}
+@media (max-width: 350px) {
+    .typewriter h2 {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: none; /* The typwriter cursor */
+        white-space: normal; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: none;
+        text-align: center;
     }
 }
 

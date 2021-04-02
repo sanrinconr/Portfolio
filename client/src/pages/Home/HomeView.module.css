@@ -10,6 +10,12 @@
     }
 } */
 /*Minor or equal to 400px*/
+
+@media (max-width: 1400px) {
+    .container{
+        font-size:15px;
+    }
+}
 @media (max-width: 900px) {
     .container{
         font-size:12px;
@@ -19,6 +25,11 @@
 @media (max-width: 500px) {
     .container{
         font-size:10px;
+    }
+}
+@media (max-width: 350px) {
+    .container{
+        font-size:8px;
     }
 }
 

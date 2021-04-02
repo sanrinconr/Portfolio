@@ -5,7 +5,10 @@ import style from "./HomeView.module.css"
 export function HomeView(){
     return <div className={style.container}>
         <PresentationPerson/>
-        <Section title="What's my skills?">
+        <Section id="sectionTools" title="What's my skills?">
+            <SkillsContainer/>
+        </Section>
+        <Section id="sectionTheoretical" title="Theoretical knowledge">
             <SkillsContainer/>
         </Section>
     </div>

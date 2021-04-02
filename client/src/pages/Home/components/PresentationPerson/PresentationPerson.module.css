@@ -6,7 +6,8 @@
     padding: 2em 0em 1em 0em;
 
 }
-@media (max-width: 500px) {
+
+@media (max-width: 900px) {
     .container{
         flex-flow: column wrap;
         padding-top: 5em;

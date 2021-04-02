@@ -1,3 +1,32 @@
+
 .container{
+    font-size: 16px;
     background-color: #373737;
+    
 }
+/* @media (max-width: 1200px) {
+    .container{
+        font-size:16px;
+    }
+} */
+/*Minor or equal to 400px*/
+@media (max-width: 500px) {
+    .container{
+        font-size:10px;
+    }
+}
+/* @media (min-width: 800px) {
+    .container{
+        font-size:14px;
+    }
+}
+@media (min-width: 400px) {
+    .container{
+        font-size:2px;
+    }
+}
+@media (min-width: 200px) {
+    .container{
+        font-size:16px;
+    }
+} */

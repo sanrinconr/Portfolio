@@ -3,18 +3,32 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    padding: 6% 0%;
+    padding: 2em 0em 1em 0em;
+
 }
+@media (max-width: 500px) {
+    .container{
+        flex-flow: column wrap;
+        padding-top: 5em;
+        padding-bottom: 4em;
+    }
+}
+
 .container img{
-    width: 15%;
+    width: 12em;
     height: auto;
     border-radius: 200px;
-    margin: 0em 2em;
+    margin: 3em 2em 0em 2em;
+}
+@media (max-width: 500px) {
+    .container img{
+        width: 14em;
+    }
 }
 
 /*Writing effect https://css-tricks.com/snippets/css/typewriter-effect/ */
 .typewriter h2 {
-    font-size: 210%;
+    font-size: 2.1em;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -25,14 +39,21 @@
       blink-caret .90s step-end infinite;
   }
   
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }
+/* The typing effect */
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: orange; }
+}
+
+@media (max-width: 500px) {
+    .typewriter h2 {
+        font-size: 1.8em;
+    }
+}
+

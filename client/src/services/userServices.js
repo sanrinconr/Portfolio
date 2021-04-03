@@ -5,7 +5,10 @@ export function sendMessage(message, where_contact){
     const detailMessage = `https://api.telegram.org/bot${TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${message}%0a %0a${where_contact}`
 
     return axios.get(detailMessage)
-    .then(()=>{
-        return true
+    .then((res)=>{
+        return res
+    })
+    .catch(err=>{
+        return err
     })
 }

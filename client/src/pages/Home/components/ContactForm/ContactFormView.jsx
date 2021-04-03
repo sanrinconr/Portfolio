@@ -36,7 +36,7 @@ export function ContactFormView({submitCallback}){
         placeholder="Where can i contact you?" 
         maxLength="80" 
         value={input.contact}
-        required autoFocus/>
+        required/>
 
     <button 
         id="send" 

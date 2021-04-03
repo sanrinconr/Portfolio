@@ -17,6 +17,7 @@
   font-size: 1em;
   resize: horizontal; 
   border-radius: 0.4em;
+
 }
 
 .form button {
@@ -29,6 +30,8 @@
     font-family: "Roboto", sans-serif;
     transition-duration: 0.4s;
     border-radius: 1em;
+    outline: none;
+
 }
 .form button:hover{
 	background-color: #046193;

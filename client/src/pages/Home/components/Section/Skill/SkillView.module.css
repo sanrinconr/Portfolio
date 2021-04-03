@@ -7,10 +7,12 @@
     border-radius: 30px;
     background-color: white;
     color: #212121;
+    width: 19em;
 }
 .container span{
     font-size: 1.5em;
     margin: 1em;
+    text-align: center;
 }
 .container hr{
     margin-top: 10%;
@@ -26,11 +28,12 @@
 @media (max-width: 500px) {
     .container img{
         padding: 1em 1em 0em 1em;
-        width: 10em;
-        height: 10em;
+        width: 12em;
+        height: 12em;
     }
     .container{
         border-radius: 15px;
+        width: 14em;
     }
 }
 

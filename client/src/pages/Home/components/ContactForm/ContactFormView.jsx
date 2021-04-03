@@ -1,6 +1,47 @@
+import { useState } from "react"
+import styles from "./ContactFormView.module.css"
+
 export function ContactFormView({submitCallback}){
-    return <div>
-        Hi! contact form here!
-        <button onClick={()=>submitCallback("Hi i'm interested in you work you wanna talk?","write me to fdds@gmail.com")}>Send message!</button>
-    </div>
+    const [input,setInput] = useState({
+        message:"",
+        contact:""
+    })
+
+    function handleChange(e){
+        const target = e.target;
+        const name =  target.name;
+        const value = target.value;
+        setInput({...input,[name]:value})
+    }
+    function handleSubmit(e){
+        e.preventDefault()
+        submitCallback(input.message,input.contact)
+    }
+
+
+    return <form 
+    onSubmit={(e)=>handleSubmit(e)}
+    className={styles.form}>	
+    <textarea
+        onChange={handleChange}
+        name="message" 
+        placeholder="Message" 
+        rows="6"
+        value={input.message} 
+        required></textarea>
+    <input 
+        onChange={handleChange}
+        name="contact" 
+        type="text" 
+        placeholder="Where can i contact you?" 
+        maxLength="80" 
+        value={input.contact}
+        required autoFocus/>
+
+    <button 
+        id="send" 
+        name="send" 
+        type="submit" 
+        className="btn">SEND</button>
+    </form>	
 }

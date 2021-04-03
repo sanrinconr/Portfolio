@@ -16,6 +16,12 @@ export function ContactFormView({submitCallback}){
     function handleSubmit(e){
         e.preventDefault()
         submitCallback(input.message,input.contact)
+        .then(()=>{
+            setInput({
+                message:"",
+                contact:""
+            })
+        })
     }
 
 

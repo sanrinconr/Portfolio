@@ -5,7 +5,7 @@ export function ContactFormContainer(){
     return <ContactFormView submitCallback={onClickButtonSubmit}/>
 }
 function onClickButtonSubmit(message, contact){
-    sendMessage(message,contact)
+    return sendMessage(message,contact)
     .then((res)=>{
         if(res.data.ok){
             alert("Message sent, i will contact you as soon as possible, thanks!")

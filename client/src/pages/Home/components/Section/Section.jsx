@@ -13,6 +13,8 @@ function defineColor(id){
             return "#757575"
         case "sectionTheoretical":
             return "#373737"
+        case "sectionForm":
+            return "#757575"
         default:
             return "#757575"
     }

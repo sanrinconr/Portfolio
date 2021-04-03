@@ -1,0 +1,39 @@
+.form{
+  padding: 2em;
+  background-color: #E7E7E7;
+  font-size: 1.4em;
+  border-radius: 1em;
+}
+
+.form input, form textarea{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: horizontal; 
+  border-radius: 0.4em;
+
+}
+
+.form button {
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+    font-family: "Roboto", sans-serif;
+    transition-duration: 0.4s;
+    border-radius: 1em;
+    outline: none;
+
+}
+.form button:hover{
+	background-color: #046193;
+}
+.form textarea { resize: none; }

@@ -1,3 +1,4 @@
+import { ContactFormContainer } from "./components/ContactForm/ContactFormContainer";
 import { PresentationPerson } from "./components/PresentationPerson/PresentationPerson";
 import Section from "./components/Section/Section";
 import SkillsContainer from "./components/Section/Skills/SkillsContainer";
@@ -10,6 +11,9 @@ export function HomeView(){
         </Section>
         <Section id="sectionTheoretical" title="Theoretical knowledge">
             <SkillsContainer type="theoretical"/>
+        </Section>
+        <Section id="sectionForm" title="Contact form">
+            <ContactFormContainer/>
         </Section>
     </div>
 }

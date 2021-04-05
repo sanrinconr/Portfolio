@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import {SkillsView} from "./SkillsView"
-function SkillsContainer({skills}){
-    return <SkillsView skills={skills}/>
+function SkillsContainer({skills, type}){
+    return <SkillsView type={type} skills={skills}/>
 }
 
 const mapStateToProps = (state, ownProps)=>{

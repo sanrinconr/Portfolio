@@ -4,7 +4,6 @@ import {Link} from "react-router-dom"
 export function SkillView({title,id, image, type}){
     const [url, setUrl]= useState("")
     useEffect(()=>{
-        console.log(type)
         if(type === "tools"){
             setUrl("/skill/"+id)
         }else if(type === "theoretical"){
@@ -13,7 +12,6 @@ export function SkillView({title,id, image, type}){
     },[type, setUrl, id])
    
     return <Link to={url} style={{ textDecoration: 'none' }}>
-        {console.log(url)}
         <div className={styles.container}>
             <img src={image} alt=""/>
             <hr/>

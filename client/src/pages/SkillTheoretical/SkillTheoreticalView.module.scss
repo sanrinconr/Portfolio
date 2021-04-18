@@ -42,13 +42,25 @@ p{
 }
 .goToLeetCode{
     margin-top: 3em;
-    font: 0.8em;
+    font-size: 1em;
+    text-align: center;
     transition-duration: 0.3s;
+    @media (max-width: 768px) {
+        margin-top: 0.3em;
+        margin-bottom: 0.2em;
+        a{
+         font-size: 1em;
+         color: #0000EE
+         }
+    }
 }
 .goToLeetCode:hover{
-    transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     a{
         color: #0000EE
+    }
+    @media (max-width: 425px) {
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
 }
 

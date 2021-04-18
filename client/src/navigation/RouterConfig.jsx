@@ -8,7 +8,7 @@ export function RouterConfig(){
     return <div>
         <Switch>
             <Route exact path={HOME} component={Home}/>
-            <Route exact path={DETAIL_SKILL_TOOL+"/:id"} component={(match)=>{
+            <Route exact path={DETAIL_SKILL_TOOL+"/:id"} component={({match})=>{
                 return <SkillToolContainer id={match.params.id}/>    
             }}/>
             <Route exact path={DETAIL_SKILL_THEORETICAL+"/:id"} component={({match})=>{

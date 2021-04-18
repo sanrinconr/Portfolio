@@ -1,4 +1,4 @@
-import { sendMessage } from "../../../../services";
+import { sendMessage } from "../../services/userServices";
 import { ContactFormView } from "./ContactFormView";
 
 export function ContactFormContainer(){

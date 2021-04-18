@@ -1,4 +1,4 @@
-import { ContactFormContainer } from "./components/ContactForm/ContactFormContainer";
+import { ContactFormContainer } from "../../sharedComponents/ContactForm/ContactFormContainer";
 import { PresentationPerson } from "./components/PresentationPerson/PresentationPerson";
 import Section from "../../sharedComponents/Section/Section";
 import SkillsContainer from "./components/Skills/SkillsContainer";

@@ -9,11 +9,10 @@ export function RouterConfig(){
         <Switch>
             <Route exact path={HOME} component={Home}/>
             <Route exact path={DETAIL_SKILL_TOOL+"/:id"} component={(match)=>{
-                return <SkillToolContainer/>    
+                return <SkillToolContainer id={match.params.id}/>    
             }}/>
-            <Route exact path={DETAIL_SKILL_THEORETICAL+"/:id"} component={(match)=>{
-                console.log(match)
-                return <SkillTheoreticalContainer/>
+            <Route exact path={DETAIL_SKILL_THEORETICAL+"/:id"} component={({match})=>{
+                return <SkillTheoreticalContainer id={match.params.id}/>
             }}/>
             <Route path="*" component={NotFound}/>
         </Switch>

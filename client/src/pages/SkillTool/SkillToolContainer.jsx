@@ -3,7 +3,7 @@ import {connect, useSelector} from "react-redux"
 function SkillToolContainer({id,name}){
     let data = useSelector((state)=>state.skills.tools[id])
     console.log(data)
-    return <SkillToolView name={name}/>
+    return <SkillToolView name={data.name} img={data.img}/>
 }
 
 const mapStateToProps = (state)=>{

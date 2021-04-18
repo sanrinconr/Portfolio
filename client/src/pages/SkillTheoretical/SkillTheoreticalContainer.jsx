@@ -9,5 +9,6 @@ export function SkillTheoreticalContainer({id}){
         img={data.img}
         idea={data.idea}
         gitLink={data.gitLink}
-        animation= {data.animation}/>
+        animation= {data.animation}
+        leetCodeLink= {data.leetCodeLink}/>
 }

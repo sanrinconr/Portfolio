@@ -56,7 +56,8 @@ const initialState = {
             description: "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
             idea:`The maner to afront this exercise is with the idea of "try all array and find if exist the other number such that the sum is the target".`,
             gitLink:`https://github.com/sanrinconr/LeetCode-exercises/tree/main/Arrays/Two%20Sum`,
-			animation: arrayAnimation
+			animation: arrayAnimation,
+			leetCodeLink: `https://leetcode.com/problems/two-sum/`
 		},
 		{
 			name: "Graphs, trees",

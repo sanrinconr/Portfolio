@@ -21,6 +21,7 @@ import treeAnimation from "../../assets/theoretical/tree/treeAnimation.gif"
 import hashAnimation from "../../assets/theoretical/hashTable/3sumAnimation.gif"
 import linkedListAnimation from "../../assets/theoretical/linkedList/linkedListAnimation.gif"
 import searchAnimation from "../../assets/theoretical/search/searchAnimation.gif"
+import stackAnimation from "../../assets/theoretical/stack/stackAnimation.gif"
 
 
 const initialState = {
@@ -92,10 +93,6 @@ const initialState = {
 			leetCodeLink:`https://leetcode.com/problems/add-two-numbers/`
 		},
 		{
-			name: "Complexity analysis",
-			img: complexityAnalysisIcon
-		},
-		{
 			name: "Search and sort",
 			img: sortIcon,
 			description: `Given a string s, find the length of the longest substring without repeating characters.`,
@@ -106,7 +103,12 @@ const initialState = {
 		},
 		{
 			name: "Stacks and queues",
-			img: stackQueueIconIcon
+			img: stackQueueIconIcon,
+			description: `Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.`,
+			idea: `The maner to afront this exercise is with the idea of "use a stack to add open characters, when reach a close character pop the stack and two elements must be the couple open closed ".`,
+			gitLink:`https://github.com/sanrinconr/LeetCode-exercises/tree/main/Stack/Valid%20Parentheses`,
+			animation: stackAnimation,
+			leetCodeLink: `https://leetcode.com/problems/valid-parentheses/`
 		}
         ]
 }

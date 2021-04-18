@@ -1,1 +1,1 @@
-export {SkillToolContainer as default} from "./SkillToolContainer";
+export {connected as default} from "./SkillToolContainer";

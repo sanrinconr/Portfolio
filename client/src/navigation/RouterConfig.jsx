@@ -8,8 +8,12 @@ export function RouterConfig(){
     return <div>
         <Switch>
             <Route exact path={HOME} component={Home}/>
-            <Route exact path={DETAIL_SKILL_THEORETICAL} component={SkillTheoreticalContainer}/>
-            <Route exact path={DETAIL_SKILL_TOOL} component={SkillToolContainer}/>
+            <Route exact path={DETAIL_SKILL_TOOL+"/:id"} component={(match)=>{
+                return <SkillToolContainer/>    
+            }}/>
+            <Route exact path={DETAIL_SKILL_THEORETICAL+"/:id"} component={(match)=>{
+                return <SkillTheoreticalContainer/>
+            }}/>
             <Route path="*" component={NotFound}/>
         </Switch>
     </div>

@@ -1,0 +1,138 @@
+
+p{
+    text-align: justify;
+}
+.title{
+
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.img{
+    text-align: center;
+    margin-top: 1.5em;
+    img{
+        width: 70%;
+        height: auto;
+    }
+}
+
+.description{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 1em;
+    p{
+        font-size: 1.7em;
+    }
+    img{
+        width: 40%;
+        margin-right: 3em;
+    }
+    @media (max-width: 425px) {
+        flex-flow: column nowrap;
+        width: 100%;
+        img{
+            margin-right: 0em;
+        }
+
+    }
+}
+.goToLeetCode{
+    margin-top: 3em;
+    font: 0.8em;
+    transition-duration: 0.3s;
+}
+.goToLeetCode:hover{
+    transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    a{
+        color: #0000EE
+    }
+}
+
+
+.descriptionSolution{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    p{
+        padding: 2em;
+        font-size: 1.7em;
+    }
+    img{
+        width: 100%;
+    }
+    @media (max-width: 1024px) {
+        flex-flow: column nowrap;
+        img{
+            width: 45%;
+            height: auto;
+        }
+        p{
+            padding: 1em;
+        }
+    }
+    @media (max-width: 769px) {
+        flex-flow: column nowrap;
+        img{
+            width: 80%;
+            height: auto;
+        }
+        p{
+            padding: 0em;
+        }
+    }
+    @media (max-width: 425px) {
+        flex-flow: column nowrap;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        p{
+            padding: 0em;
+        }
+    }
+   
+    
+}
+.linkToSolution{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition-duration: 0.5s;
+
+    p{
+        padding-right: 1em;
+        font-size: 2em;
+        color: white;
+        text-align: center;
+    }
+    .img{
+        width: 30%;
+        padding-bottom: 1em;
+    }
+    @media (max-width: 425px) {
+        flex-flow: column nowrap;
+    }
+  
+}
+.linkToSolution:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoomContainer{
+    transition-duration: 0.2s;
+}
+.zoomContainer:hover{
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+a {
+    color: white;
+    text-decoration: none; /* no underline */
+  }

@@ -9,11 +9,23 @@ p{
 }
 
 .img{
+    background-color: white;
+    border-radius: 10px;
     text-align: center;
+    padding: 0.4em;
     margin-top: 1.5em;
+    width: 30%;
     img{
+        width: 100%;
+    }
+    @media (max-width: 1024px) {
+        width: 40%;
+    }
+    @media (max-width: 768px) {
+        width: 40%;
+    }
+    @media (max-width: 425px) {
         width: 70%;
-        height: auto;
     }
 }
 

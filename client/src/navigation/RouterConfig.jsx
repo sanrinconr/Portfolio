@@ -12,6 +12,7 @@ export function RouterConfig(){
                 return <SkillToolContainer/>    
             }}/>
             <Route exact path={DETAIL_SKILL_THEORETICAL+"/:id"} component={(match)=>{
+                console.log(match)
                 return <SkillTheoreticalContainer/>
             }}/>
             <Route path="*" component={NotFound}/>

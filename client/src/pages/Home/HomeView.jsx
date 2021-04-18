@@ -1,7 +1,7 @@
 import { ContactFormContainer } from "./components/ContactForm/ContactFormContainer";
 import { PresentationPerson } from "./components/PresentationPerson/PresentationPerson";
-import Section from "./components/Section/Section";
-import SkillsContainer from "./components/Section/Skills/SkillsContainer";
+import Section from "../../sharedComponents/Section/Section";
+import SkillsContainer from "./components/Skills/SkillsContainer";
 import style from "./HomeView.module.css"
 export function HomeView(){
     return <div className={style.container}>

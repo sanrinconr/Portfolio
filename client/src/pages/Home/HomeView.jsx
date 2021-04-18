@@ -6,13 +6,13 @@ import style from "./HomeView.module.css"
 export function HomeView(){
     return <div className={style.container}>
         <PresentationPerson/>
-        <Section theme="black" title="What's my skills?">
+        <Section theme="white" title="What's my skills?">
             <SkillsContainer type="tools"/>
         </Section>
-        <Section theme="white" title="Theoretical knowledge">
+        <Section theme="black" title="Theoretical knowledge">
             <SkillsContainer type="theoretical"/>
         </Section>
-        <Section theme="black" title="Contact form">
+        <Section theme="white" title="Contact form">
             <ContactFormContainer/>
         </Section>
     </div>

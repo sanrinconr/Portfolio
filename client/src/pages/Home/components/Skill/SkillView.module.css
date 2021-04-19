@@ -33,11 +33,35 @@
     height: 14em;
 }
 
+@media (max-width: 1440px) {
+    .container img{
+        padding: 1em 1em 0em 1em;
+        width: 7em;
+        height: 7em;
+    }
+    .container{
+        border-radius: 15px;
+        width: 12em;
+        height: 18em;
+    }
+}
+@media (max-width: 1024px) {
+    .container img{
+        padding: 1em 1em 0em 1em;
+        width: 9em;
+        height: 9em;
+    }
+    .container{
+        border-radius: 15px;
+        width: 12em;
+        height: 18em;
+    }
+}
 @media (max-width: 500px) {
     .container img{
         padding: 1em 1em 0em 1em;
-        width: 12em;
-        height: 12em;
+        width: 11em;
+        height: 11em;
     }
     .container{
         border-radius: 15px;

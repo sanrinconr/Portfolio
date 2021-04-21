@@ -8,6 +8,10 @@
     align-items: center;
     width: 80%;
     margin: 10px 10px;
+    font-size: 1.1em;
+    p{
+        text-align: justify;
+    }
 }
 .proyectImage{
     img{
@@ -30,7 +34,6 @@
         padding: 0.2em 1em 0.2em 1em;
         color: #212121;
         font-size: 1.2em;
-
         transition-duration: 0.4s;
     }
     .btn:hover{

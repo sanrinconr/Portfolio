@@ -11,7 +11,6 @@ import arrayIcon from "../../assets/images/arrayIcon.svg"
 import treeIcon from "../../assets/images/treeIcon.svg"
 import hasgTableIcon from "../../assets/images/hashTableIcon.svg"
 import linkedListIcon from "../../assets/images/linkedListIcon.svg"
-import complexityAnalysisIcon from "../../assets/images/complexityAnalysisIcon.svg"
 import sortIcon from "../../assets/images/sortIcon.svg"
 import stackQueueIconIcon from "../../assets/images/stackQueueIcon.svg"
 
@@ -23,12 +22,16 @@ import linkedListAnimation from "../../assets/theoretical/linkedList/linkedListA
 import searchAnimation from "../../assets/theoretical/search/searchAnimation.gif"
 import stackAnimation from "../../assets/theoretical/stack/stackAnimation.gif"
 
+import reactTool from "../../assets/tools/react/reactTool.png"
 
 const initialState = {
 	tools: [
 		{
 			name: "React",
-			img: reactLogo
+			img: reactLogo,
+			appImg: reactTool,
+			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			gitLink: `https://github.com/sanrinconr/Countries/`
 		},
 		{
 			name: "Redux",

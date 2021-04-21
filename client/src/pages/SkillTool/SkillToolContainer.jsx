@@ -1,14 +1,6 @@
 import {SkillToolView} from "./SkillToolView";
-import {connect, useSelector} from "react-redux"
-function SkillToolContainer({id,name}){
+import {useSelector} from "react-redux"
+export function SkillToolContainer({id}){
     let data = useSelector((state)=>state.skills.tools[id])
-    console.log(data)
-    return <SkillToolView name={data.name} img={data.img}/>
+    return <SkillToolView id={id} name={data.name} img={data.img}/>
 }
-
-const mapStateToProps = (state)=>{
-    return state.skills
-}
-
-export const connected = connect(mapStateToProps)(SkillToolContainer)
-

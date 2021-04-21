@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { ContactFormContainer } from "../../sharedComponents/ContactForm/ContactFormContainer";
 import Section from "../../sharedComponents/Section/Section";
+import { DemoProyectContainer } from "./DemoProyect/DemoProyectContainer";
 import styles from "./SkillToolView.module.scss"
-export function SkillToolView({name, img}){
+export function SkillToolView({id, name, img}){
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
@@ -13,12 +14,7 @@ export function SkillToolView({name, img}){
             </div>
         </Section>
          <Section theme="white" title={`My work`}>
-            <div className={styles.description}>
-                <img src={img} alt=""/>
-                <div>
-                    <p>jujuju</p>
-                </div>
-            </div>
+            <DemoProyectContainer id={id}/>
         </Section>
         <Section theme="black" title={`What can i do`}>
             <div className={styles.description}>

@@ -9,23 +9,24 @@ p{
 }
 
 .img{
-    background-color: white;
+    background-color: #f5f5f5;
     border-radius: 10px;
     text-align: center;
     padding: 0.4em;
-    margin-top: 1.5em;
-    width: 30%;
     img{
         width: 100%;
     }
+    @media (max-width: 1440px) {
+        width: 20%;
+    }
     @media (max-width: 1024px) {
-        width: 40%;
+        width: 20%;
     }
     @media (max-width: 768px) {
-        width: 40%;
+        width: 25%;
     }
     @media (max-width: 425px) {
-        width: 70%;
+        width: 30%;
     }
 }
 

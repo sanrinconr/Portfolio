@@ -23,6 +23,11 @@ import searchAnimation from "../../assets/theoretical/search/searchAnimation.gif
 import stackAnimation from "../../assets/theoretical/stack/stackAnimation.gif"
 
 import reactTool from "../../assets/tools/react/reactTool.png"
+import reduxTool from "../../assets/tools/redux/reduxTool.png"
+import expressTool from "../../assets/tools/express/expressTool.png"
+import sequelizeTool from "../../assets/tools/sequelize/sequelizeTool.png"
+import postgresTool from "../../assets/tools/postgresql/postgresqlTool.svg"
+import gitTool from "../../assets/tools/git/gitTool.png"
 
 const initialState = {
 	tools: [
@@ -31,31 +36,61 @@ const initialState = {
 			img: reactLogo,
 			appImg: reactTool,
 			liveDemo: `https://paises-sanrinconr.vercel.app/`,
-			gitLink: `https://github.com/sanrinconr/Countries/`
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "In this proyect react has been used to show all the visual interface to the user, the landing page, the section of countries and create new activity "
 		},
 		{
 			name: "Redux",
-			img: reduxLogo
+			img: reduxLogo,
+			appImg: reduxTool,
+			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "Redux has been used to save all relative information of the countries going to be show in visual interface, and finally, redux is used in the country filter "
 		},
 		{
 			name: "Node",
-			img: nodeLogo
+			img: nodeLogo,
+			appImg: reactTool,
+			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "Node has been used as the platform of the backend, in this proyect has been connect to sequelize and express "
+
 		},
 		{
 			name: "Express",
-			img: expressLogo
+			img: expressLogo,
+			appImg: expressTool,
+			liveDemo: `https://apicountry.herokuapp.com/countries`,
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "Express is the connection beetwen front-end and back-end, this manage essential two routes /activity and /countries, if you wanna see contries in the backend enter to https://apicountry.herokuapp.com/countries?page=0"
+
 		},
 		{
 			name: "Sequelize",
-			img: sequelizeLogo
+			img: sequelizeLogo,
+			appImg: sequelizeTool,
+			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "The connection beetwen express and the database, but how can i show you this? with the entity relationship diagram, when the proyect have a diagram defined, set sequelize is more easy!"
+
 		},
 		{
 			name: "PostgreSQL",
-			img: postgresqlLogo
+			img: postgresqlLogo,
+			appImg: postgresTool,
+			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "The place where the data is saved!, the best way to show you how the data is saved is with the relational model, it has been created with https://app.genmymodel.com/"
+
 		},
 		{
 			name: "Git",
-			img: gitLogo
+			img: gitLogo,
+			appImg: gitTool,
+			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "Git... without git the proyect has been much more difficult to deploy. This proyect followed the workflow of create a branch for every feature, when it's finished merge to the main branch. All is make with pull request, but becouse a migration of the repo, this show 0 pull requests :(. In the image you can se a little part of the history"
+
 		}
         ],
 	theoretical: [

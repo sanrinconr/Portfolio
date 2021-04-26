@@ -29,6 +29,7 @@ import expressTool from "../../assets/tools/express/expressTool.png"
 import sequelizeTool from "../../assets/tools/sequelize/sequelizeTool.png"
 import postgresTool from "../../assets/tools/postgresql/postgresqlTool.svg"
 import gitTool from "../../assets/tools/git/gitTool.png"
+import firebaseTool from "../../assets/tools/firebase/firebaseTool.png"
 
 const initialState = {
 	tools: [
@@ -96,7 +97,7 @@ const initialState = {
 		{
 			name: "Firebase",
 			img: firebaseLogo,
-			appImg: gitTool,
+			appImg: firebaseTool,
 			liveDemo: `https://frases-sanrinconr.firebaseapp.com/`,
 			gitLink: `https://github.com/sanrinconr/phrases-firebase`,
 			description: "Google takes care of the servers and the developer focuses on developing, and this is incredible !, with firebase i make a project where you can enter words, and this is saved in the firestore. The utility ?, none, but can be fun if many persons as you, write what you are thinking, what are you doing or other thing, next visitors will be this !. Imagine if 100 persons wrote, the result may be curious!"

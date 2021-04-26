@@ -5,6 +5,7 @@ import expressLogo from "../../assets/images/expressLogo.svg"
 import sequelizeLogo from "../../assets/images/sequelizeLogo.svg"
 import postgresqlLogo from "../../assets/images/postgresqlLogo.svg"
 import gitLogo from "../../assets/images/gitLogo.svg"
+import firebaseLogo from "../../assets/images/firebaseLogo.svg"
 
 
 import arrayIcon from "../../assets/images/arrayIcon.svg"
@@ -23,6 +24,12 @@ import searchAnimation from "../../assets/theoretical/search/searchAnimation.gif
 import stackAnimation from "../../assets/theoretical/stack/stackAnimation.gif"
 
 import reactTool from "../../assets/tools/react/reactTool.png"
+import reduxTool from "../../assets/tools/redux/reduxTool.png"
+import expressTool from "../../assets/tools/express/expressTool.png"
+import sequelizeTool from "../../assets/tools/sequelize/sequelizeTool.png"
+import postgresTool from "../../assets/tools/postgresql/postgresqlTool.svg"
+import gitTool from "../../assets/tools/git/gitTool.png"
+import firebaseTool from "../../assets/tools/firebase/firebaseTool.png"
 
 const initialState = {
 	tools: [
@@ -31,31 +38,70 @@ const initialState = {
 			img: reactLogo,
 			appImg: reactTool,
 			liveDemo: `https://paises-sanrinconr.vercel.app/`,
-			gitLink: `https://github.com/sanrinconr/Countries/`
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "In this project react has been used to show all the visual interface to the user, the landing page, the section of countries and create new activity",
 		},
 		{
 			name: "Redux",
-			img: reduxLogo
+			img: reduxLogo,
+			appImg: reduxTool,
+			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "Redux has been used to save all relative information of the countries going to be show in visual interface, and finally, redux is used in the country filter "
 		},
 		{
 			name: "Node",
-			img: nodeLogo
+			img: nodeLogo,
+			appImg: reactTool,
+			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "Node has been used as the platform of the backend, in this project has been connect to sequelize and express"
+
 		},
 		{
 			name: "Express",
-			img: expressLogo
+			img: expressLogo,
+			appImg: expressTool,
+			liveDemo: `https://apicountry.herokuapp.com/countries`,
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "Express is the connection between front-end and back-end, this manage essential two routes /activity and /countries, if you wanna see countries in the backend enter https://apicountry.herokuapp.com/countries?page=0"
+
 		},
 		{
 			name: "Sequelize",
-			img: sequelizeLogo
+			img: sequelizeLogo,
+			appImg: sequelizeTool,
+			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "The connection between express and the database, but how can i show you this? with the entity relationship diagram, when the project has a diagram defined, set sequelize is more easy!"
+
 		},
 		{
 			name: "PostgreSQL",
-			img: postgresqlLogo
+			img: postgresqlLogo,
+			appImg: postgresTool,
+			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "The place where the data is saved!, the best way to show you how the data is saved is with the relational model, it has been created with https://app.genmymodel.com/"
+
 		},
 		{
 			name: "Git",
-			img: gitLogo
+			img: gitLogo,
+			appImg: gitTool,
+			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			gitLink: `https://github.com/sanrinconr/Countries-app`,
+			description: "Git... without git the project has been much more difficult to deploy. This project followed the workflow of creating a branch for every feature, when it's finished merges to the main branch. All is made with pull requests, but because of a migration of the repo, this shows 0 pull requests :(. In the image you can see a little part of the history"
+
+		},
+		{
+			name: "Firebase",
+			img: firebaseLogo,
+			appImg: firebaseTool,
+			liveDemo: `https://frases-sanrinconr.firebaseapp.com/`,
+			gitLink: `https://github.com/sanrinconr/phrases-firebase`,
+			description: "Google takes care of the servers and the developer focuses on developing, and this is incredible !, with firebase i make a project where you can enter words, and this is saved in the firestore. The utility ?, none, but can be fun if many persons as you, write what you are thinking, what are you doing or other thing, next visitors will be this !. Imagine if 100 persons wrote, the result may be curious!"
+
 		}
         ],
 	theoretical: [

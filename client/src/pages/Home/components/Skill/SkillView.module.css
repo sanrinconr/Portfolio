@@ -8,7 +8,7 @@
     background-color: white;
     color: #212121;
     width: 19em;
-    height: 30em;
+    height: 24em;
     transition-duration: 0.4s;
 }
 
@@ -43,7 +43,7 @@
     .container{
         border-radius: 15px;
         width: 12em;
-        height: 18em;
+        height: 16em;
     }
 
 }
@@ -52,6 +52,7 @@
         padding: 1em 1em 0em 1em;
         width: 9em;
         height: 9em;
+
     }
     .container{
         border-radius: 15px;
@@ -70,6 +71,7 @@
         border-radius: 15px;
         width: 14em;
         height: 20em;
+
     }
 }
 

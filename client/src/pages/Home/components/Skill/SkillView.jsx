@@ -5,7 +5,7 @@ export function SkillView({title,id, image, type}){
     const [url, setUrl]= useState("")
     useEffect(()=>{
         if(type === "tools"){
-            setUrl("#")
+            setUrl("/skill/"+id)
         }else if(type === "theoretical"){
             setUrl("/skillTheoretical/"+id)
         }

@@ -20,11 +20,16 @@ And in the section of teorical skills you can see
 
 # And no more?
 
-The cards are button!, at this moment if you click in a theorical skill you can see a example of this skill, how? A LeetCode problem! example:
+The cards are button!, 
+
+If you click in a tech skill you can see a proyect with this skill, example:
 
 <img src="assets/specificTechSkill.png" width="90%"  />
 
-The idea is make the same thing with the tech skills, in a near future you can see in what part of a proyect i use a specific tech!  
+
+If you click in a theorical skill you can see a example of this skill, how? A LeetCode problem! example:
+
+<img src="assets/specificTheoricalSkill.png" width="90%"  />
 
 If you interested in see more about my portfolio see this here!: [portfolio-sanrinconr.vercel.app](https://portfolio-sanrinconr.vercel.app/)
 

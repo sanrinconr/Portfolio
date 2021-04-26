@@ -8,6 +8,7 @@
     background-color: white;
     color: #212121;
     width: 19em;
+    height: 30em;
     transition-duration: 0.4s;
 }
 
@@ -44,6 +45,7 @@
         width: 12em;
         height: 18em;
     }
+
 }
 @media (max-width: 1024px) {
     .container img{
@@ -62,10 +64,12 @@
         padding: 1em 1em 0em 1em;
         width: 11em;
         height: 11em;
+
     }
     .container{
         border-radius: 15px;
         width: 14em;
+        height: 20em;
     }
 }
 

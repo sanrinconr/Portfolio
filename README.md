@@ -1,6 +1,4 @@
-# Hi!
-
-This is my portfolio actually in development!
+# Hi!, This is my portfolio
 
 ## What technologies is used ?
 

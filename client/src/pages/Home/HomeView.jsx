@@ -3,6 +3,7 @@ import { PresentationPerson } from "./components/PresentationPerson/Presentation
 import Section from "../../sharedComponents/Section/Section";
 import SkillsContainer from "./components/Skills/SkillsContainer";
 import style from "./HomeView.module.css"
+import { SocialNetwoksContainer } from "../../sharedComponents/SocialNetworks/SocialNetworksContainer";
 export function HomeView(){
     return <div className={style.container}>
         <PresentationPerson/>
@@ -12,7 +13,10 @@ export function HomeView(){
         <Section theme="black" title="Theoretical knowledge">
             <SkillsContainer type="theoretical"/>
         </Section>
-        <Section theme="white" title="Contact form">
+        <Section theme="white" title={`Networks`}>
+            <SocialNetwoksContainer/>
+        </Section>
+        <Section theme="black" title="If you wanna, send me a message!">
             <ContactFormContainer/>
         </Section>
     </div>

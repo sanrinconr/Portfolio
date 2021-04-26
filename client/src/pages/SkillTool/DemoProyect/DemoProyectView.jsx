@@ -1,6 +1,5 @@
 import styles from "./DemoProyectView.module.scss"
 export function DemoProyectView({img, description, liveDemo, gitLink}){
-    console.log(description)
     return <div className={styles.container}>
         <div className={styles.description}>
             <p>{description}</p>

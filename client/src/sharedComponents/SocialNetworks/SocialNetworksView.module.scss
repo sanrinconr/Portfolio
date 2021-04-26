@@ -1,0 +1,28 @@
+.container{
+}
+.data{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    @media (max-width: 768px) {
+        flex-flow: column wrap;
+        text-align: center;
+    }
+    .social{
+        display: flex;
+        flex-flow: row nowrap;
+        margin-left: auto;
+        img{
+            margin:0em 2em 0em 2em;
+            width: 7em;
+        }
+        @media (max-width: 425px) {
+            flex-flow: column nowrap;
+            img{
+                width: 5em;
+                margin: 1em 0em 1em 0em;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "santiagorincon",
+    "public": "client/build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

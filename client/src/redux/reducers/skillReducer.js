@@ -37,7 +37,7 @@ const initialState = {
 			name: "React",
 			img: reactLogo,
 			appImg: reactTool,
-			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			liveDemo: `https://paises.santiagorincon.site/`,
 			gitLink: `https://github.com/sanrinconr/Countries-app`,
 			description: "In this project react has been used to show all the visual interface to the user, the landing page, the section of countries and create new activity",
 		},
@@ -45,7 +45,7 @@ const initialState = {
 			name: "Redux",
 			img: reduxLogo,
 			appImg: reduxTool,
-			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			liveDemo: `https://paises.santiagorincon.site/`,
 			gitLink: `https://github.com/sanrinconr/Countries-app`,
 			description: "Redux has been used to save all relative information of the countries going to be show in visual interface, and finally, redux is used in the country filter "
 		},
@@ -53,7 +53,7 @@ const initialState = {
 			name: "Node",
 			img: nodeLogo,
 			appImg: reactTool,
-			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			liveDemo: `https://paises.santiagorincon.site/`,
 			gitLink: `https://github.com/sanrinconr/Countries-app`,
 			description: "Node has been used as the platform of the backend, in this project has been connect to sequelize and express"
 
@@ -62,7 +62,7 @@ const initialState = {
 			name: "Express",
 			img: expressLogo,
 			appImg: expressTool,
-			liveDemo: `https://apicountry.herokuapp.com/countries`,
+			liveDemo: `https://us-central1-paises-e1544.cloudfunctions.net/api`,
 			gitLink: `https://github.com/sanrinconr/Countries-app`,
 			description: "Express is the connection between front-end and back-end, this manage essential two routes /activity and /countries, if you wanna see countries in the backend enter https://apicountry.herokuapp.com/countries?page=0"
 
@@ -71,7 +71,7 @@ const initialState = {
 			name: "Sequelize",
 			img: sequelizeLogo,
 			appImg: sequelizeTool,
-			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			liveDemo: `https://paises.santiagorincon.site/`,
 			gitLink: `https://github.com/sanrinconr/Countries-app`,
 			description: "The connection between express and the database, but how can i show you this? with the entity relationship diagram, when the project has a diagram defined, set sequelize is more easy!"
 
@@ -80,7 +80,7 @@ const initialState = {
 			name: "PostgreSQL",
 			img: postgresqlLogo,
 			appImg: postgresTool,
-			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			liveDemo: `https://paises.santiagorincon.site/`,
 			gitLink: `https://github.com/sanrinconr/Countries-app`,
 			description: "The place where the data is saved!, the best way to show you how the data is saved is with the relational model, it has been created with https://app.genmymodel.com/"
 
@@ -89,7 +89,7 @@ const initialState = {
 			name: "Git",
 			img: gitLogo,
 			appImg: gitTool,
-			liveDemo: `https://paises-sanrinconr.vercel.app/`,
+			liveDemo: `https://paises.santiagorincon.site/`,
 			gitLink: `https://github.com/sanrinconr/Countries-app`,
 			description: "Git... without git the project has been much more difficult to deploy. This project followed the workflow of creating a branch for every feature, when it's finished merges to the main branch. All is made with pull requests, but because of a migration of the repo, this shows 0 pull requests :(. In the image you can see a little part of the history"
 
@@ -98,7 +98,7 @@ const initialState = {
 			name: "Firebase",
 			img: firebaseLogo,
 			appImg: firebaseTool,
-			liveDemo: `https://frases-sanrinconr.firebaseapp.com/`,
+			liveDemo: `https://frases.santiagorincon.site/`,
 			gitLink: `https://github.com/sanrinconr/phrases-firebase`,
 			description: "Google takes care of the servers and the developer focuses on developing, and this is incredible !, with firebase i make a project where you can enter words, and this is saved in the firestore. The utility ?, none, but can be fun if many persons as you, write what you are thinking, what are you doing or other thing, next visitors will be this !. Imagine if 100 persons wrote, the result may be curious!"
 

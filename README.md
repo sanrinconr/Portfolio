@@ -31,7 +31,7 @@ If you click in a theorical skill you can see a example of this skill, how? A Le
 
 <img src="assets/specificTheoricalSkill.png" width="90%"  />
 
-If you interested in see more about my portfolio see this here!: [portfolio-sanrinconr.vercel.app](https://portfolio-sanrinconr.vercel.app/)
+If you interested in see more about my portfolio see this here!: [santiagorincon.site](https://santiagorincon.site/)
 
 
 
